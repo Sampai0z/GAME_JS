@@ -47,7 +47,7 @@ const start = function() {  //this is an Anonymous function..
         return;
     }
     gameIsRunning = true;
-    console.log('Game is starting...');
+    alert('Game is starting...');
     const playerChoice = getPlayerChoice();
     const computerChoice = getComputerChoice();
     // console.log(playerSelection);
